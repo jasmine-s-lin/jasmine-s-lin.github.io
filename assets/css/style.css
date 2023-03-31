@@ -107,6 +107,9 @@ header {
     text-decoration: underline;
 }
 
+html {
+    overflow: scroll; 
+}
 
 /* Vertical timeline for resume. */
 *, html,body{

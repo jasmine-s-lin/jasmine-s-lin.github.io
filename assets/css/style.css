@@ -112,16 +112,10 @@ html {
 }
 
 /* Vertical timeline for resume. */
-*, html,body{
-    padding:0px;
-    margin:0px;
-    box-sizing:border-box;
-    perspective:800px;
-}
 .timeline{
     width:1200px;
     color:#fff;
-    padding:20px 20px;
+    padding:10px 20px;
     margin-left: 150px; 
     margin-right: 150px; 
 }
@@ -129,7 +123,8 @@ html {
     list-style-type:none;
     border-left:1px solid black;
     color: black; 
-    padding:10px 5px;
+    padding: 5px 5px;
+    margin: 0px; 
 }
 .timeline ul li{
     padding:5px 15px;
@@ -148,13 +143,12 @@ html {
     font-weight: 400;
     font-style: italic; 
     font-size:18px;
-    padding-top:10px;
 }
 .timeline ul li .content p{
-    padding:5px 0px 15px 0px;
+    padding:0px 0px 15px 0px;
     font-family: 'Lato', sans-serif; 
     font-weight: 300;  
-    font-size: 15px;
+    font-size: 15px; 
 }
 .timeline ul li:before{
     position:absolute;
@@ -165,7 +159,6 @@ html {
     border-radius:50%;
     left:-11px;
     top:15px;
-    transition:.5s;
 } 
 
 /** Text animation for home page. */

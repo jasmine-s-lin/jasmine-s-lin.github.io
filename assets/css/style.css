@@ -107,6 +107,7 @@ header {
     text-decoration: underline;
 }
 
+
 /* Vertical timeline for resume. */
 *, html,body{
     padding:0px;
@@ -115,7 +116,7 @@ header {
     perspective:800px;
 }
 .timeline{
-    width:800px;
+    width:1200px;
     color:#fff;
     padding:20px 20px;
     margin-left: 150px; 
@@ -128,9 +129,8 @@ header {
     padding:10px 5px;
 }
 .timeline ul li{
-    padding:20px 20px;
+    padding:5px 15px;
     position:relative;
-    cursor:pointer;
 }
 .timeline ul li span{
     display:inline-block;
@@ -153,7 +153,6 @@ header {
     font-weight: 300;  
     font-size: 15px;
 }
-
 .timeline ul li:before{
     position:absolute;
     content:'';
@@ -162,10 +161,11 @@ header {
     background-color:black;
     border-radius:50%;
     left:-11px;
-    top:28px;
+    top:15px;
     transition:.5s;
-}
+} 
 
+/** Text animation for home page. */
 .waveTextAnimated{
     margin-top: 0.6em;
     text-align:left;
@@ -175,13 +175,11 @@ header {
     margin: 0px; 
     color: #77C26C;
 }
-
 .waveTextAnimated .animate{
     display: inline-block;
     -webkit-animation: wave-text 1s ease-in-out infinite;
             animation: wave-text 1s ease-in-out infinite;
 }
-
 .waveTextAnimated span:nth-of-type(1) {
     -webkit-animation-delay: 0s;
             animation-delay: 0s;
@@ -226,13 +224,19 @@ header {
     -webkit-animation-delay: 1.0s;
             animation-delay: 1.0s;
 }
-
+.waveTextAnimated span:nth-of-type(12) {
+    -webkit-animation-delay: 1.1s;
+            animation-delay: 1.1s;
+}
+.waveTextAnimated span:nth-of-type(13) {
+    -webkit-animation-delay: 1.2s;
+            animation-delay: 1.2s;
+}
 @-webkit-keyframes wave-text {
     00% { transform: translateY(0em); }
     60% { transform: translateY(-0.1em); }
     100% { transform: translateY(0em);}
 }
-   
 @keyframes wave-text {
     00% { transform: translateY(0em); }
     60% { transform: translateY(-0.1em); }

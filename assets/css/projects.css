@@ -1,0 +1,189 @@
+header {
+    margin-right: 100px; 
+    margin-top: 50px;
+}
+.navbar li {
+    float: right; 
+    list-style: none; 
+    margin: 20px 10px; 
+    font-family: 'Lato', sans-serif; 
+    font-weight: 300;
+    font-size: 15px; 
+}
+.navbar ul {
+    overflow: auto; 
+}
+.navbar li a { 
+    padding: 5px 5px; 
+    text-decoration: none; 
+    color: black; 
+}
+.navbar li a:hover { 
+    text-decoration: underline;
+}
+
+
+/* center container in the middle */
+/* Code for making card layout. */
+
+html {
+  display: grid;
+  min-height: 100%;
+}
+
+body {
+  /* display: grid; */
+  font-family: 'Lato', sans-serif;
+  
+} 
+
+.container-header {
+    margin-left: 150px; 
+    margin-top: 40px; 
+    margin-right: 150px; 
+}
+.container-header h2 {
+    font-size: 60px;
+    font-weight: 800; 
+    margin: 1px; 
+}
+
+.container-box {
+    display: flex;
+    justify-content: center; 
+    flex-direction: row; 
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 520px;
+    height: 350px;
+    background: white;
+    margin: 20px; 
+    border-radius: 10px;
+    border-color: black; 
+    border-style: solid; 
+    border-width: 0.2px; 
+} 
+
+p {
+  font-size: 0.6em;
+  color: black;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 1.2em;
+  color: black;
+  margin-top: -5px;
+}
+
+h2 {
+  color: black;
+  margin-top: -5px;
+}
+
+img {
+  width: 290px;
+  margin-top: 47px;
+  margin-left: 10px; 
+}
+
+.product {
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  top: 10%;
+  left: 60%;
+}
+
+.desc {
+  text-transform: none;
+  letter-spacing: 0;
+  margin-bottom: 17px;
+  color: black;
+  font-size: .7em;
+  line-height: 1.6em;
+  margin-right: 25px;
+  text-align: justify;
+}
+
+.pick {
+  margin-top: 11px;
+  margin-bottom:0;
+  margin-left: 20px;
+}
+
+
+/* center container in the middle */
+/* html {
+  display: grid;
+  min-height: 100%;
+}
+
+body {
+  display: grid;
+  background: white;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 520px;
+  height: 350px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(gray, .5);
+  border-radius: 10px;
+}
+
+p {
+  font-size: 0.6em;
+  color: black;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 1.2em;
+  color: black;
+  margin-top: -5px;
+}
+
+h2 {
+  color: black;
+  margin-top: -5px;
+}
+
+img {
+  width: 290px;
+  margin-top: 47px;
+}
+
+.product {
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  top: 10%;
+  left: 60%;
+}
+
+.desc {
+  text-transform: none;
+  letter-spacing: 0;
+  margin-bottom: 17px;
+  color: black;
+  font-size: .7em;
+  line-height: 1.6em;
+  margin-right: 25px;
+  text-align: justify;
+}
+
+.pick {
+  margin-top: 11px;
+  margin-bottom:0;
+  margin-left: 20px;
+} */

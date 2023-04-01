@@ -28,6 +28,7 @@ header {
 html {
   min-height: 100%;
   overflow: scroll; 
+  scroll-behavior: smooth;
 }
 
 body {
@@ -63,7 +64,6 @@ body {
     border-width: 0.01px;
     border-style: solid; 
 } 
-
 
 .container:hover {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
@@ -125,7 +125,7 @@ img {
     background-color: #F3F2F2;
     color: black; 
     border-radius: 15px; 
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 300;
     text-align: center;
     width:fit-content;

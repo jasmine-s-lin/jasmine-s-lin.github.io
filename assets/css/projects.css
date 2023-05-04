@@ -21,7 +21,9 @@ header {
 .navbar li a:hover { 
     text-decoration: underline;
 }
-
+a {
+  text-decoration: none; 
+}
 
 /* center container in the middle */
 /* Code for making card layout. */
@@ -106,8 +108,8 @@ img {
   color: black;
   font-size: 12px;
   margin-right: 25px;
-  text-align:start;
-  margin-top:-9px; 
+  text-align: start;
+  margin-top: -9px; 
 }
 
 .technologies {

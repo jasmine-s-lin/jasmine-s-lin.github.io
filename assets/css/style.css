@@ -25,7 +25,7 @@ html {
     color: black; 
 }
 .navbar li a:hover { 
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* Adjusting for elements to be a certain margin away from the left. */

@@ -41,8 +41,8 @@ html {
     margin: 100px 50px -50px 50px; 
     text-align: left; 
 }
-.container .name-sign{
-    margin-top: 150px; 
+.container .name-sign {
+    margin-top: 180px; 
     margin-bottom: 100px; 
 }
 .name-sign .resize {
@@ -70,12 +70,6 @@ html {
 .container .description {
     text-align: center; 
     margin: -50px 180px -150px 180px; 
-}
-.link-pages {
-    font-size: 16px; 
-    padding-bottom: 150px;
-    text-align: center; 
-    margin: 200px 80px 0px 80px; 
 }
 .container a {
     color: black; 
